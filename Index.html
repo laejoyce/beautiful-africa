@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<!-- import VIDALOKA and ROBOTO fonts from Google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vidaloka&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Beautiful Africa
+    </title>
+</head>
+
+<body>
+
+    <h1>My Beautiful Africa </h1>
+    <h2> Discover Africa by selecting a location</h2>
+
+
+    <p>
+    <div class="intro">Africa is a beautiful continent that is full of incredible natural wealths. There are
+        lakes, rivers, oceans, savannahs, forests, deserts, just as magnificent as each other. The people are welcoming
+        and
+        the food is
+        exquisite. You can have an overview of some
+        tourist sites that you can visit in Africa.
+        Let yourself embark on a
+        magnificent
+        adventure of which you will keep the best memories
+        of all your life!!</div>
+    </p>
+
+    <!-- Create a dropdown with all the cities -->
+    <div class="select"></div>
+    <select name="dropdown" size=1>
+        <!-- Use the first option to describe what to do -->
+        <option disabled selected value> -- Select a location -- </option>
+        <option value="Yaounde">Yaounde</option>
+        <option value="Dakar">Dakar</option>
+        <option value="Yamoussoukro">Yamoussoukro</option>
+        <option value="Harare">Harare</option>
+        <option value="Kampala">Kampala</option>
+        <option value="Kigali">Kigali</option>
+        <option value="Maputo">Maputo</option>
+        <option value="Libreville">Libreville</option>
+        <option value="Moroni">Moroni</option>
+        <option value="Luanda">Luanda</option>
+        <option value="Lusaka">Lusaka</option>
+        <option value="Pretoria">Pretoria</option>
+        <option value="Abuja">Abuja</option>
+        <option value="Rabat">Rabat</option>
+        <option value="Alger">Alger</option>
+        <option value="Ouagadougou">Ouagadougou</option>
+        <option value="Bamako">Bamako</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Kinshasa">Kinshasa</option>
+        <option value="Zanzibar">Zanzibar</option>
+        <option value="Windhoek">Windhoek</option>
+    </select>
+    </div>
+
+    <!-- Display the name of the place selected -->
+
+    <p class="bestPlace" id="bestPlace"> <span id="bestPlaceBegin"> </span> <span id="bestPlaceEnd"
+            class="bestPlaceEnd"> </span></p>
+
+    <!-- Results obtained through the API -->
+
+    <div class="results" id="result0"></div>
+    <div class="results" id="result1"></div>
+    <div class="results" id="result2"></div>
+    <div class="results" id="result3"></div>
+    <div class="results" id="result4"></div>
+    <div class="results" id="result5"></div>
+    <div class="results" id="result6"></div>
+    <div class="results" id="result7"></div>
+    <div class="results" id="result8"></div>
+    <div class="results" id="result9"></div>
+
+    <footer>
+        <p>Designed by J.K</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
